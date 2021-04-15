@@ -11,7 +11,7 @@ RSpec.describe Ride do
   it "can have attributes" do
     ride = Ride.new({name: 'Ferris Wheel', cost: 0})
     
-    expect(premier.name).to eq("Ferris Wheel")
-    expect(premier.cost).to eq(0)
+    expect(ride.name).to eq("Ferris Wheel")
+    expect(ride.cost).to eq(0)
   end
 end
