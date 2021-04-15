@@ -8,7 +8,7 @@ RSpec.describe Ride do
     expect(ride).to be_instance_of(Ride)
   end
 
-  it "can have attributes" do
+  it 'can have attributes' do
     ride = Ride.new({name: 'Ferris Wheel', cost: 0})
     
     expect(ride.name).to eq("Ferris Wheel")
